@@ -15,6 +15,8 @@
             <asp:TextBox ID="nameTextBox" runat="server"></asp:TextBox>
             <br />
             <asp:Button ID="displayButton" runat="server"  Text="Display" OnClick="displayButton_Click" />
+            <br />
+            <asp:Label ID="answerLabel" runat="server"></asp:Label>
         </div>
     </form>
 </body>

@@ -17,7 +17,7 @@ namespace WebFormApplication
         protected void displayButton_Click(object sender, EventArgs e)
         {
             string name = nameTextBox.Text;
-            Response.Write("Hello " + name);
+            answerLabel.Text = "Hello " + name;
         }
     }
 }
