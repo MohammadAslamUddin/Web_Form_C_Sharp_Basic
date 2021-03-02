@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="FirstUI.aspx" />
     <Content Include="SecondUI.aspx" />
+    <Content Include="ThirdUI.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="SecondUI.aspx.designer.cs">
       <DependentUpon>SecondUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdUI.aspx.cs">
+      <DependentUpon>ThirdUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThirdUI.aspx.designer.cs">
+      <DependentUpon>ThirdUI.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
