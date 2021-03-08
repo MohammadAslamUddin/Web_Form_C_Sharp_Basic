@@ -75,12 +75,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IndexUI.aspx.cs">
-      <DependentUpon>IndexUI.aspx</DependentUpon>
+    <Compile Include="FirstUI.aspx.cs">
+      <DependentUpon>FirstUI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IndexUI.aspx.designer.cs">
-      <DependentUpon>IndexUI.aspx</DependentUpon>
+    <Compile Include="FirstUI.aspx.designer.cs">
+      <DependentUpon>FirstUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FourthUI.aspx.cs">
+      <DependentUpon>FourthUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FourthUI.aspx.designer.cs">
+      <DependentUpon>FourthUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonalInfoUI.aspx.cs">
+      <DependentUpon>PersonalInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalInfoUI.aspx.designer.cs">
+      <DependentUpon>PersonalInfoUI.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondUI.aspx.cs">
